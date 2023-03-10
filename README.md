@@ -28,5 +28,5 @@ __깃은 개발자가 코드를 저장하고 관리할 수 있는 버전 관리 
 
 _깃을 아주 잘 설명해주는 이미지 :_
 
-![git_image](https://drive.google.com/file/d/154sZpxdCYSKpUTAZAmX1bknDH2O_S6mu/view?usp=share_link/778x502)
+![git_image](https://git-scm.com/images/branching-illustration@2x.png)
 
