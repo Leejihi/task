@@ -38,6 +38,14 @@ __온라인 상에서 협업을 통해 버전 관리를 할 수 있게 해주는
     * Bitbucket, GitLab 등의 호스팅 업체도 있음
     * 현재 사용하는 깃허브 프로그램은 CLI 방식(명령어로 사용하는 방식)
 
+__깃과 깃허브 동기화하기__
+
+    - git에서 user.name 과 user.email이 github와 동일하게 설정되어 있어야 하고, 어떤 파일이든 한 번은 커밋되어 있어야 함
+    - 깃허브에 가입하여 user.name 과 user.email 을 만든다.
+    - 로컬 저장소에 깃을 깃을 최초에 생성했을시 배쉬 명령어로 내정보를 등록한다.
+      내정보 등록 | git config --global user.name 깃허브유저네임 | git config --global user.name 깃허브유저이메일
+
+
 ## 배쉬(Bash)
 
 __깃에서 사용할 수 있는 리눅스 쉘shell / 명령어__
