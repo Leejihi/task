@@ -85,27 +85,27 @@ __1) 로컬저장소를 만들고 내 정보등록하기__
 내정보가 등록되어 있으면 이 부분은 생략, 수정이 가능하다.
 
 
-    * 깃허브에 가입하여 user.name 과 user.email 을 만든다.
-    * 로컬에 내 정보 등록하기
+    - 깃허브에 가입하여 user.name 과 user.email 을 만든다.
+    - 로컬에 내 정보 등록하기
       git config --global user.name 깃허브유저네임 | git config --global user.name 깃허브유저
 
 로컬에 저장된 정보 확인하기
 
-    * git config --llist
-    * 저장된 정보 수정시: 등록과 동일한 방법으로 등록된 정보를 변경
-    * 저장된 정보를 삭제시
+    - git config --llist
+    - 저장된 정보 수정시: 등록과 동일한 방법으로 등록된 정보를 변경
+    - 저장된 정보를 삭제시
       git config --unset --global user.name | git config --unset --global user.email
 
 - [x] 메인 로컬저장소에 저장한 내용을 깃허브에 push -u origin main(업로드)해야만 동기화 완성
 
 __2) 로컬저장소와 동기화할 깃허브 저장소 만들기__
 
-    * 깃허브에서 Repositories 탭에서 new 저장소를 만들면 해당 저장소의 링크주소가 생성된다.
-    * 파일명이 동일하면 헷갈릴 위험이 줄어든다.
+    - 깃허브에서 Repositories 탭에서 new 저장소를 만들면 해당 저장소의 링크주소가 생성된다.
+    - 파일명이 동일하면 헷갈릴 위험이 줄어든다.
 
 __3) 깃에 저장소의 링크주소를 입력한다.__
 
-    * git remote add origin https://
+    - git remote add origin https://
 
 __4) 팝업으로 뜨는 창의 Sign in with your browser 클릭__
 
@@ -115,16 +115,25 @@ __5) Repositories 옵션에서 전체 선택 후 Authorize 버튼 클릭(안뜨�
 
 ![git_image](https://cafeptthumb-phinf.pstatic.net/MjAyMTEwMTFfMTQg/MDAxNjMzOTM0Mjg1ODQ3.JbIbdhK7cPFui3mTSUoFOos0Ke6uz1kvg7IkHJIELggg.oQidvKV-SbikYwpbQfevr53ElLWKecKsDh_tP7lunngg.PNG/06.png?type=w1600)
 
-__6) 깃과 깃허브 동기화여 작업하기_
+__6) 깃과 깃허브 동기화여 작업하기__
 
-    * 깃에 명령어를 입력하여 작업 후, 커밋한다.
-    * 커밋 후엔 git push -u origin main(업로드)해야만 동기화 완성
+    - 깃에 명령어를 입력하여 작업 후, 커밋한다.
+    - 커밋 후엔 git push -u origin main(업로드)해야만 동기화 완성
 
 
 ## 깃허브에서 로컬저장소로 자료를 다운받을때
 
+다운받고자 하는 저장소에서 Code -> Clone -> HTTPS 에서 링크 복사하여 깃에 입력하면
+로컬저장소에 자료가 다운받아진것을 확인할 수 있다.
+_폴더채로 다운받을때와 내용만 다운받을때 명령어가 다르다._
+
 __1) 폴더채로 다운받을때__
 
+    - git clone https://~
+    
+__2) 만들어진 폴더에 내용만 다운받을때__
+
+    - ​git clone https://~ .     주소 끝에 한 칸 띄어쓰기 후 마침표(.)
 
 
 
