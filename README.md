@@ -149,6 +149,6 @@ __원하는 파일을 발견하면 그 파일의 Fork를 눌러 나의 저장소
 
 ## 깃허브 저장소 삭제
 
-1. 해당 repository의 setting으로 들어가 제일 아래의 Delete this repository 선택
-2. danger zone에서 Delete this repository
-
+1. 해당 저장소(repository)의 setting을 클릭
+2. danger zone에서 Delete this repository 선택
+3. 저장소(repository)이름과 동일하게 작성후 delete
