@@ -40,16 +40,19 @@ __온라인 상에서 협업을 통해 버전 관리를 할 수 있게 해주는
 
 __깃과 깃허브 동기화하기__
 
-    - 깃에서 user.name 과 user.email이 깃허브와 동일하게 설정되어 있어야 한다.
-    - 어떤 파일이든 한 번은 커밋되어 있어야하기에 로컬 저장소에 내 정보를 등록해 준다.
-    - 동기화순서 : 1. 깃허브에 가입하여 user.name 과 user.email 을 만든다.
-         2. 로컬 저장소에 깃을 깃을 최초에 생성했을시 배쉬 명령어로 내정보를 등록한다.
-    - 로컬에 정보 등록하기 : git config --global user.name 깃허브유저네임 | git config --global user.name 깃허브유저이메일
-    - 로컬에 저장된 정보 확인하기 : git config --llist
+1. 깃에서 user.name 과 user.email이 깃허브와 동일하게 설정되어 있어야 한다.
+2. 어떤 파일이든 한 번은 커밋되어 있어야하기에 로컬 저장소에 내 정보를 등록해 준다.
+3. 동기화순서
+
+    - 깃허브에 가입하여 user.name 과 user.email 을 만든다.
+    - 로컬에 내 정보 등록하기: git config --global user.name 깃허브유저네임 | git config --global user.name 깃허브유저
+
+4. 로컬에 저장된 정보 확인하기 : git config --llist
+
     - 로컬에 저장된 정보 수정시 : 등록과 동일한 방법으로 등록된 정보를 변경
     - 로컬에 저장된 정보를 삭제시 : git config --unset --global user.name | git config --unset --global user.email
     
-- 깃과 깃허브를 동기화했어도, 로컬저장소에 저장한 내용을 push해야만 동기화가 완성된다
+5. 깃과 깃허브를 동기화했어도, 로컬저장소에 저장한 내용을 push해야만 동기화가 완성된다
 
 
 
