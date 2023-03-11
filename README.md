@@ -47,13 +47,14 @@ _동기화순서_
 1. 깃허브에 가입하여 user.name 과 user.email 을 만든다.
 2. 로컬 저장소에 깃을 깃을 최초에 생성했을시 배쉬 명령어로 내정보를 등록한다.
    
-   git config --global user.name 깃허브유저네임 | git config --global user.name 깃허브유저이메일
+    - git config --global user.name 깃허브유저네임 | git config --global user.name 깃허브유저이메일
 
 _로컬에 저장된 정보 확인하기_ 
    
 >git config --llist | 정보가 올바르면 동기화할 준비 완료, 작업완료 후 푸쉬까지 해야 동기화가 된다.
-  >>로컬에 저장된 정보 수정시 : 등록과 동일한 방법으로 등록된 정보를 변경
-  >>로컬에 저장된 정보를 삭제시 : git config --unset --global user.name | git config --unset --global user.email
+  
+  - 로컬에 저장된 정보 수정시 : 등록과 동일한 방법으로 등록된 정보를 변경
+  - 로컬에 저장된 정보를 삭제시 : git config --unset --global user.name | git config --unset --global user.email
 
 
 ## 배쉬(Bash)
