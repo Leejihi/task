@@ -83,15 +83,17 @@ __로컬저장소와 깃허브의 user.name 과 user.email이 동일하게 설�
 어떤 파일이든 한 번은 커밋되어 있어야하기에 로컬 저장소에 내 정보를 등록해 준다.
 
     * 깃허브에 가입하여 user.name 과 user.email 을 만든다.
-    * 로컬에 내 정보 등록하기: git config --global user.name 깃허브유저네임 | git config --global user.name 깃허브유저
+    * 로컬에 내 정보 등록하기
+      git config --global user.name 깃허브유저네임 | git config --global user.name 깃허브유저
 
 로컬에 저장된 정보 확인하기
 
     * git config --llist
-    * 저장된 정보 수정시 : 등록과 동일한 방법으로 등록된 정보를 변경
-    * 저장된 정보를 삭제시 : git config --unset --global user.name | git config --unset --global user.email
+    * 저장된 정보 수정시: 등록과 동일한 방법으로 등록된 정보를 변경
+    * 저장된 정보를 삭제시
+      git config --unset --global user.name | git config --unset --global user.email
 
-깃과 깃허브를 동기화했어도, 메인 로컬저장소에 저장한 내용을 깃허브에 push해야만 동기화가 완성된다.
+- [x] 메인 로컬저장소에 저장한 내용을 깃허브에 push(업로드)해야만 동기화 완성
 
     * push -u origin main
 
