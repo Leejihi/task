@@ -154,5 +154,9 @@ __원하는 파일을 발견하면 그 파일의 Fork를 눌러 나의 저장소
 3. 저장소(repository)이름과 동일하게 작성후 delete
 
 
-## git 사용자 자격 증명을 바꾸기
+## 깃 사용자 자격 증명을 바꾸기
 
+1. 제어판>사용자 계정>자격 증명 관리자로 이동 혹은 검색을 통해 자격 증명 관리자로 이동
+2. windows 자격증명의 github.com 편집 혹은 삭제
+
+![git_image](https://cafe.naver.com/common/storyphoto/viewer.html?src=https%3A%2F%2Fcafeptthumb-phinf.pstatic.net%2FMjAyMjAzMjBfNTMg%2FMDAxNjQ3NzUxODYxOTA0.DtBn9Wj7NyN2Avxi8Q1EPWhioc0wAgPQECsvGSv-reMg.vGkZ-7tOyAXq6YdHmbjn_LnsJiCSj8LsBiuJoV4fYAUg.PNG%2F%25EC%25A0%259C%25EB%25AA%25A9_%25EC%2597%2586%25EC%259D%258C-1.png%3Ftype%3Dw1600)
